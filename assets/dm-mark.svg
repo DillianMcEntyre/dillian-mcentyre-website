@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+<title id="title">Dillian McEntyre DM monogram</title><desc id="desc">A custom interlocking D and M in an elegant diamond crest</desc>
+<defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8ed"/><stop offset=".5" stop-color="#d3bdb0"/><stop offset="1" stop-color="#f4e8dc"/></linearGradient>
+<linearGradient id="red" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#cb877b"/><stop offset="1" stop-color="#8e3c3d"/></linearGradient>
+</defs>
+<!-- Architectural frame: clipped corners and fine inner inlay -->
+<path d="M77 15H163L225 77V163L163 225H77L15 163V77Z" fill="#100f15" fill-opacity=".64" stroke="#b78479" stroke-opacity=".7" stroke-width="1.6"/>
+<path d="M81 25H159L215 81V159L159 215H81L25 159V81Z" fill="none" stroke="#f0ddd0" stroke-opacity=".23" stroke-width="1"/>
+<!-- Small signature diamonds -->
+<path d="M120 15l5 5-5 5-5-5zM120 215l5 5-5 5-5-5z" fill="#c5746b"/>
+<!-- D letterform, drawn rather than typed; tall stem with spurred serifs and large bowl -->
+<g fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M63 68V172"/>
+ <path d="M51 69H84C121 69 148 87 148 119C148 153 122 171 84 171H51"/>
+</g>
+<path d="M59 68h21M59 172h22" fill="none" stroke="#f8ebdb" stroke-width="2.3" stroke-linecap="round"/>
+<!-- The M is layered into the D bowl, in warmer metallic ink -->
+<g fill="none" stroke="url(#gold)" stroke-linejoin="round" stroke-linecap="square">
+ <path d="M96 163V89L129 132L163 88V163" stroke-width="6.5"/>
+ <path d="M92 89h9M158 89h9M91 164h12M157 164h13" stroke-width="2.6"/>
+</g>
+<!-- Distinctive red finishing stroke subtly crosses the initials -->
+<path d="M83 177C108 184 144 183 177 168" fill="none" stroke="url(#red)" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="178" cy="167" r="3" fill="#cb857b"/>
+</svg>

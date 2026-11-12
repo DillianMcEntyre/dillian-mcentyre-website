@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 980" preserveAspectRatio="xMidYMid slice"><defs>
+<linearGradient id="wall"><stop stop-color="#090d13"/><stop offset=".55" stop-color="#26303a"/><stop offset="1" stop-color="#090d13"/></linearGradient>
+<linearGradient id="glimpse" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b4afaa" stop-opacity=".05"/><stop offset=".5" stop-color="#d0c4b6" stop-opacity=".30"/><stop offset="1" stop-color="#99a6aa" stop-opacity=".02"/></linearGradient>
+<filter id="f"><feGaussianBlur stdDeviation="22"/></filter></defs>
+<rect width="800" height="980" fill="url(#wall)"/>
+<path d="M230 100H570L610 880H190Z" fill="#070b11" stroke="#677179" stroke-width="11"/>
+<path d="M258 140H542L553 831H246Z" fill="#0e141c" stroke="#252d33" stroke-width="7"/>
+<path d="M485 152 530 150 537 820 470 820Z" fill="url(#glimpse)"/>
+<path d="M260 140L248 825" stroke="#8b9da2" stroke-opacity=".36" stroke-width="6"/><path d="M542 140L554 826" stroke="#a2afb0" stroke-opacity=".3" stroke-width="5"/>
+<ellipse cx="340" cy="480" rx="70" ry="270" fill="#adbbc0" opacity=".14" filter="url(#f)"/>
+<circle cx="488" cy="509" r="8" fill="#a4a29c"/><path d="M150 920h500" stroke="#79828a" stroke-opacity=".28" stroke-width="4"/>
+<path d="M0 980 195 840h410l195 140" fill="#141920"/><rect width="800" height="980" fill="none" stroke="#d8d0c6" stroke-opacity=".12" stroke-width="14"/></svg>
