@@ -1,0 +1,45 @@
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: blog
+    label: Blog Posts
+    type: collection
+    path: content/blog
+    fields:
+      - name: title
+        label: Post Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+      - name: body
+        label: Blog Content
+        type: rich-text
+
+  - name: updates
+    label: Latest Updates
+    type: collection
+    path: content/updates
+    fields:
+      - name: title
+        label: Announcement Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+      - name: body
+        label: Announcement
+        type: rich-text
+
+  - name: story
+    label: My Story
+    type: file
+    path: content/my-story.md
+    fields:
+      - name: body
+        label: My Biography
+        type: rich-text
